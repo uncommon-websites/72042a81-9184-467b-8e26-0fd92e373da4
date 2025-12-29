@@ -81,42 +81,44 @@
 				</div>
 			</div>
 
-			<!-- App Screenshot Placeholder -->
+			<!-- Visual Topology Representation -->
 			<div class="relative rounded-2xl border border-gray-200 shadow-2xl bg-white overflow-hidden aspect-[16/10] mb-12 group">
-				<!-- This represents the complex app interface -->
-				<div class="absolute inset-0 bg-gray-50 flex">
-					<!-- Sidebar -->
-					<div class="w-64 border-r border-gray-200 bg-white p-4 hidden md:flex flex-col gap-4">
-						<div class="h-8 w-full bg-gray-100 rounded animate-pulse"></div>
-						<div class="space-y-2">
-							<div class="h-4 w-3/4 bg-gray-100 rounded"></div>
-							<div class="h-4 w-1/2 bg-gray-100 rounded"></div>
-							<div class="h-4 w-5/6 bg-gray-100 rounded"></div>
+				<!-- Network visualization concept -->
+				<div class="absolute inset-0 bg-gradient-to-br from-gray-50 to-white flex items-center justify-center p-8">
+					<!-- Central node network -->
+					<div class="relative w-full h-full max-w-2xl max-h-96">
+						<!-- Connection lines -->
+						<svg class="absolute inset-0 w-full h-full" viewBox="0 0 400 300">
+							<line x1="200" y1="150" x2="100" y2="80" stroke="currentColor" stroke-width="1" class="text-gray-300" />
+							<line x1="200" y1="150" x2="300" y2="80" stroke="currentColor" stroke-width="1" class="text-gray-300" />
+							<line x1="200" y1="150" x2="320" y2="200" stroke="currentColor" stroke-width="1" class="text-gray-300" />
+							<line x1="200" y1="150" x2="80" y2="220" stroke="currentColor" stroke-width="1" class="text-gray-300" />
+							<line x1="100" y1="80" x2="300" y2="80" stroke="currentColor" stroke-width="1" class="text-gray-200" />
+							<line x1="80" y1="220" x2="320" y2="200" stroke="currentColor" stroke-width="1" class="text-gray-200" />
+						</svg>
+						
+						<!-- Nodes -->
+						<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-primary-500 flex items-center justify-center text-white text-xs font-bold shadow-lg">
+							Self
 						</div>
-					</div>
-					<!-- Main Content -->
-					<div class="flex-1 p-6">
-						<div class="h-8 w-1/3 bg-gray-100 rounded mb-6"></div>
-						<div class="space-y-4">
-							<div class="h-32 w-full bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
-								<div class="flex gap-3 mb-3">
-									<div class="w-8 h-8 rounded-full bg-gray-200"></div>
-									<div class="space-y-1">
-										<div class="h-3 w-24 bg-gray-200 rounded"></div>
-										<div class="h-3 w-16 bg-gray-100 rounded"></div>
-									</div>
-								</div>
-								<div class="h-2 w-full bg-gray-100 rounded mb-2"></div>
-								<div class="h-2 w-5/6 bg-gray-100 rounded"></div>
-							</div>
-							<div class="h-32 w-full bg-white border border-gray-200 rounded-xl p-4 shadow-sm"></div>
+						<div class="absolute top-[27%] left-1/4 w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-white text-xs shadow-md">
+							Work
+						</div>
+						<div class="absolute top-[27%] right-1/4 w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center text-white text-xs shadow-md">
+							Fear
+						</div>
+						<div class="absolute bottom-[33%] right-[20%] w-10 h-10 rounded-full bg-gray-600 flex items-center justify-center text-white text-xs shadow-md">
+							Time
+						</div>
+						<div class="absolute bottom-[27%] left-[20%] w-10 h-10 rounded-full bg-gray-500 flex items-center justify-center text-white text-xs shadow-md">
+							Rest
 						</div>
 					</div>
 				</div>
 				
-				<!-- Overlay text to indicate it's a screenshot -->
+				<!-- Overlay text -->
 				<div class="absolute inset-0 flex items-center justify-center bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-					<span class="bg-white px-4 py-2 rounded-full shadow-sm text-sm font-medium">App Interface</span>
+					<span class="bg-white px-4 py-2 rounded-full shadow-sm text-sm font-medium">Your Cognitive Map</span>
 				</div>
 			</div>
 
@@ -124,19 +126,19 @@
 			<div class="flex flex-wrap justify-center gap-8 md:gap-12 text-sm font-medium text-gray-700">
 				<div class="flex items-center gap-2">
 					{@html icons.reflection}
-					<span>For reflection</span>
-				</div>
-				<div class="flex items-center gap-2">
-					{@html icons.productivity}
-					<span>For productivity</span>
+					<span>For self-reflection</span>
 				</div>
 				<div class="flex items-center gap-2">
 					{@html icons.memory}
-					<span>For memory</span>
+					<span>For understanding</span>
 				</div>
 				<div class="flex items-center gap-2">
 					{@html icons.clarity}
 					<span>For clarity</span>
+				</div>
+				<div class="flex items-center gap-2">
+					{@html icons.sparkles}
+					<span>For insight</span>
 				</div>
 			</div>
 		<!-- Features Grid -->
