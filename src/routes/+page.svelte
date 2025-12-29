@@ -141,357 +141,268 @@
 					<span>For insight</span>
 				</div>
 			</div>
+		</section>
+
 		<!-- Features Grid -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
-			<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 max-w-lg leading-tight">
-				Great ideas start in quiet places, welcome to your private think space.
+			<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 max-w-2xl leading-tight">
+				Your thoughts have structure. Fractal makes it visible.
 			</h2>
 
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 				<!-- Card 1 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.speedometer}
+						{@html icons.layout}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Built for flow</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Fast, modern mobile and desktop apps that work offline</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Visual topology</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">See concepts, relationships, and patterns emerge as living visual maps</p>
 					</div>
 				</div>
 
 				<!-- Card 2 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.shield}
+						{@html icons.repeat}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Private by design</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Stored on your device and syncs with end-to-end encryption</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Belief loops</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Discover recurring patterns and circular thinking in your mental models</p>
 					</div>
 				</div>
 
 				<!-- Card 3 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.sparkles}
+						{@html icons.shield}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Works with AI</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Intelligent agents that think with you and organize your vault</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">No prescription</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Understand your thinking without being told what to believe or do</p>
 					</div>
 				</div>
 
 				<!-- Card 4 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.soundwave}
+						{@html icons.mic}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Speak to journal</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Dictate your ideas and thoughts effortlessly</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Multiple inputs</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Journals, voice notes, and transcripts all feed your cognitive map</p>
 					</div>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.plus}
+						{@html icons.sparkles}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Capture effortlessly</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Text, links, photos, screenshots, and more</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Living structure</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Your map evolves as you add new reflections and insights</p>
+					</div>
+				</div>
+
+				<!-- Card 6 -->
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+					<div class="mb-auto text-gray-900">
+						{@html icons.clarity}
+					</div>
+					<div>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Inner freedom</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Gain clarity and self-understanding without dogma or coaching</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Think Tank Section -->
+		<!-- Visual Mapping Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					With best-in-class AI
+				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Cognitive Topology
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-purple-900 mb-6 tracking-tight">
-					Your personal think tank
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Watch your thinking take shape
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Intelligent agents that organize and enhance your thinking. Your intellectual force multiplier.
+					Fractal transforms your reflections into visual maps that reveal patterns, connections, and belief loops you never knew existed.
 				</p>
 			</div>
 
-			<div class="bg-purple-50 rounded-3xl p-8 md:p-12 mb-16">
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-					<!-- Left Visual: Nova Agent -->
-					<div class="relative bg-white rounded-2xl shadow-lg p-6 overflow-hidden min-h-[300px]">
-						<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500"></div>
-						<div class="flex items-center gap-3 mb-6">
-							<div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600 to-orange-400 flex items-center justify-center text-white font-bold text-xs">
-								N
-							</div>
-							<div>
-								<div class="font-bold text-gray-900">Nova</div>
-								<div class="text-xs text-purple-600 font-medium uppercase tracking-wider">The Playful Explorer</div>
-							</div>
-						</div>
-						<div class="space-y-4 text-sm">
-							<div class="bg-purple-50 p-4 rounded-xl rounded-tl-none text-gray-800">
-								I approach life like one big fascinating experiment, asking "what if" questions that make people see things in completely new ways. I believe play and humor are powerful tools for breaking through mental barriers.
-							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Extraverted</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Intuitive</span>
-							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Thinking</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Perceiving</span>
+			<div class="bg-gray-50 rounded-3xl p-8 md:p-12 mb-16">
+				<!-- Visual Concept Map Example -->
+				<div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-8">
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+						<!-- Left: Journal Entry -->
+						<div class="space-y-4">
+							<div class="text-xs text-gray-400 mb-4">Journal Entry · March 15</div>
+							<div class="prose prose-sm text-gray-700 leading-relaxed">
+								<p class="mb-3">I keep saying I don't have time for creative work, but I spent three hours scrolling today. The truth is I'm afraid of starting because I might not be good enough.</p>
+								<p class="mb-3">This reminds me of how I felt before launching my first project—paralyzed by perfectionism. Maybe the pattern isn't about time at all.</p>
+								<p>What if the real block is fear of judgment, not lack of hours?</p>
 							</div>
 						</div>
-						<div class="mt-6">
-							<button class="w-full py-2 border border-purple-200 text-purple-700 font-medium rounded-lg hover:bg-purple-50 transition-colors">
-								Add to vault
-							</button>
-						</div>
-					</div>
 
-					<!-- Right Visual: Chat Interface -->
-					<div class="bg-white rounded-2xl shadow-lg p-6 min-h-[300px] flex flex-col">
-						<div class="flex items-center gap-2 mb-4 text-xs text-gray-400 border-b border-gray-100 pb-2 overflow-hidden whitespace-nowrap">
-							<div class="w-2 h-2 rounded-full bg-gray-300"></div>
-							<span>https://nabeelqu.substack.com/p/reflections-on-palantir</span>
-						</div>
-						<div class="flex-1 space-y-4">
-							<div class="border border-gray-100 rounded-lg p-4">
-								<h4 class="font-bold text-gray-900 text-sm mb-1">Reflections on Palantir</h4>
-								<div class="text-xs text-gray-500 mb-2">nabeelqu.substack.com</div>
-								<p class="text-xs text-gray-600 line-clamp-3">
-									Chronos shares five on-site stories—from mapping Afghan IEDs to fixing Airbus delays—that show Palantir teams hacking bespoke fixes, then baking them into reusable Foundry modules.
-								</p>
-							</div>
-							<div class="flex gap-2 items-center text-xs text-gray-500">
-								<div class="flex -space-x-2">
-									<div class="w-6 h-6 rounded-full bg-gray-200 border-2 border-white"></div>
-									<div class="w-6 h-6 rounded-full bg-gray-300 border-2 border-white"></div>
-								</div>
-								<span>Lens and Chronos</span>
-							</div>
-							<div class="space-y-3 pt-2">
-								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-gray-800 shrink-0"></div>
-									<div class="text-xs text-gray-800">
-										<p class="font-bold mb-1">tell me everything about rene descartes</p>
-									</div>
-								</div>
-								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-teal-500 shrink-0"></div>
-									<div class="text-xs text-gray-600 bg-gray-50 p-3 rounded-lg rounded-tl-none">
-										<p>AI for physical action: doubt filter, cogito reset, clarify rewrite, first-principles ladder, axis plotting, mind-body separation.</p>
-									</div>
-								</div>
+						<!-- Right: Emerging Map -->
+						<div class="relative h-80 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-200 p-6">
+							<div class="text-xs text-gray-400 mb-4">Emerging Patterns</div>
+							<!-- Simple node visualization -->
+							<svg class="w-full h-full" viewBox="0 0 300 250">
+								<!-- Connections -->
+								<line x1="150" y1="125" x2="80" y2="60" stroke="currentColor" stroke-width="1.5" class="text-gray-300" />
+								<line x1="150" y1="125" x2="220" y2="60" stroke="currentColor" stroke-width="1.5" class="text-gray-300" />
+								<line x1="150" y1="125" x2="150" y2="200" stroke="currentColor" stroke-width="2" class="text-primary-400" />
+								<line x1="80" y1="60" x2="220" y2="60" stroke="currentColor" stroke-width="1" class="text-gray-200" />
+								
+								<!-- Nodes -->
+								<g>
+									<circle cx="150" cy="125" r="28" fill="currentColor" class="text-primary-500" />
+									<text x="150" y="130" text-anchor="middle" class="text-xs fill-white font-medium">Fear</text>
+								</g>
+								<g>
+									<circle cx="80" cy="60" r="22" fill="currentColor" class="text-gray-700" />
+									<text x="80" y="64" text-anchor="middle" class="text-xs fill-white font-medium">Time</text>
+								</g>
+								<g>
+									<circle cx="220" cy="60" r="22" fill="currentColor" class="text-gray-600" />
+									<text x="220" y="64" text-anchor="middle" class="text-xs fill-white font-medium">Creative</text>
+								</g>
+								<g>
+									<circle cx="150" cy="200" r="24" fill="currentColor" class="text-gray-800" />
+									<text x="150" y="204" text-anchor="middle" class="text-xs fill-white font-medium">Judgment</text>
+								</g>
+							</svg>
+							<div class="absolute bottom-4 left-4 text-xs text-gray-500 bg-white px-2 py-1 rounded border border-gray-200">
+								Belief loop detected
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Bottom Visual: Input Processing -->
-				<div class="bg-white rounded-2xl shadow-lg p-6 md:p-8">
-					<div class="relative mb-8">
-						<input type="text" value="What are you thinking?" class="w-full bg-gray-50 border-none rounded-xl py-4 pl-12 pr-4 text-gray-500 focus:ring-0" readonly />
-						<div class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-							{@html icons.camera}
-						</div>
-						<div class="absolute right-4 top-1/2 -translate-y-1/2 flex gap-2 text-gray-400">
-							{@html icons.mic}
-							{@html icons.download}
-						</div>
-					</div>
-
-					<div class="flex justify-center mb-8">
-						<span class="bg-gray-100 text-gray-500 text-xs px-3 py-1 rounded-full">gpt-5 is out! should we switch you to it?</span>
-					</div>
-
-					<div class="bg-purple-50/50 rounded-xl p-6 border border-purple-100">
-						<div class="space-y-3">
-							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full bg-pink-500 animate-pulse"></div>
-								<span class="text-sm text-gray-700">Nova is working</span>
-							</div>
-							<div class="flex items-start gap-3">
-								<div class="w-3 h-3 rounded-full bg-green-500 mt-1"></div>
-								<div class="text-sm text-gray-700">
-									<span class="font-medium">Nova is scanning</span> 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">132 recent entries</span> 
-									to understand your context and checking 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">8 lists</span> 
-									for relevant topics.
-									<p class="text-xs text-gray-500 mt-1 max-w-md">Found mentions of ChatGPT in your vault for additional context. Distill is using AI to analyze patterns and suggest relevant connections.</p>
-								</div>
-							</div>
-							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full bg-green-500"></div>
-								<span class="text-sm text-gray-700">Added entry to <span class="bg-purple-500 text-white px-2 py-0.5 rounded text-xs font-bold">ideas</span></span>
-							</div>
-							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full border-2 border-gray-300 border-t-gray-500 animate-spin"></div>
-								<span class="text-sm text-gray-500">Searching the web for <span class="text-blue-500">openai gpt-5</span></span>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 max-w-4xl">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 max-w-4xl">
 				<p class="text-xl text-gray-600 mb-6 md:col-span-2 leading-relaxed">
-					They watch your threads, spot patterns, and do the groundwork you don't have time for—mapping connections, organizing lists, and surfacing the right context on cue.
+					Every entry you add enriches your cognitive map. Fractal reveals the invisible architecture of your thinking—the concepts you return to, the connections you make, and the loops that shape your worldview.
 				</p>
 				
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.sparkles}
-						<span>Agents engage with you</span>
+					<div class="flex items-center gap-3 text-gray-700 font-medium">
+						{@html icons.layout}
+						<span>Concept relationships</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.target}
-						<span>Guide you towards your goals</span>
+					<div class="flex items-center gap-3 text-gray-700 font-medium">
+						{@html icons.repeat}
+						<span>Recurring patterns</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.plus}
-						<span>Auto-organize entries into lists</span>
+					<div class="flex items-center gap-3 text-gray-700 font-medium">
+						{@html icons.link}
+						<span>Belief structures</span>
 					</div>
 				</div>
 
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.layout}
-						<span>Connect the dots across threads</span>
+					<div class="flex items-center gap-3 text-gray-700 font-medium">
+						{@html icons.search}
+						<span>Hidden assumptions</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.maximize}
-						<span>Read and summarize links</span>
+					<div class="flex items-center gap-3 text-gray-700 font-medium">
+						{@html icons.target}
+						<span>Core themes</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.externalLink}
-						<span>Sees your screenshots</span>
+					<div class="flex items-center gap-3 text-gray-700 font-medium">
+						{@html icons.sparkles}
+						<span>Emergent insights</span>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Insights to Action Section -->
+		<!-- Understanding Patterns Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					Planner
+				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Self-Understanding
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-orange-900 mb-6 tracking-tight">
-					From insights to action
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Understand yourself, without judgment
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Agents help you break plans down, manage todos, and keep everything moving.
+					Fractal doesn't tell you what to think or do. It simply shows you the structure of your own mind—revealing patterns, loops, and connections you can explore on your terms.
 				</p>
 			</div>
 
-			<div class="bg-orange-50 rounded-3xl p-8 md:p-12 mb-16">
-				<div class="bg-white rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto">
-					<!-- Stats -->
-					<div class="grid grid-cols-4 gap-4 mb-8">
-						<div class="bg-green-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-green-800 mb-1">Today</div>
-							<div class="text-2xl font-bold text-green-900">5</div>
+			<div class="bg-gray-50 rounded-3xl p-8 md:p-12 mb-16">
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+					<!-- Pattern Card 1 -->
+					<div class="bg-white rounded-xl p-6 shadow-sm">
+						<div class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
+							{@html icons.repeat}
 						</div>
-						<div class="bg-orange-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-orange-800 mb-1">Scheduled</div>
-							<div class="text-2xl font-bold text-orange-900">51</div>
-						</div>
-						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">All</div>
-							<div class="text-2xl font-bold text-gray-900">56</div>
-						</div>
-						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">Completed</div>
-							<div class="text-2xl font-bold text-gray-900">70</div>
-						</div>
+						<h3 class="font-bold text-gray-900 mb-2">Recurring Themes</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">
+							See which concepts appear most frequently in your reflections and how they connect to other ideas.
+						</p>
 					</div>
 
-					<!-- Task List -->
-					<div class="space-y-6">
-						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">OVERDUE</div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-red-500 flex items-center justify-center cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Review quarterly budget report</h4>
-									<p class="text-xs text-gray-500 mt-1">Review and provide feedback on the Q4 budget analysis prepared by the finance team.</p>
-									<div class="text-xs text-red-500 mt-1 font-medium">YESTERDAY · 2:00 PM</div>
-								</div>
-							</div>
+					<!-- Pattern Card 2 -->
+					<div class="bg-white rounded-xl p-6 shadow-sm">
+						<div class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
+							{@html icons.link}
 						</div>
+						<h3 class="font-bold text-gray-900 mb-2">Belief Loops</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">
+							Discover circular patterns in your thinking—where one belief reinforces another in an ongoing cycle.
+						</p>
+					</div>
 
-						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">TODAY</div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-gray-300 group-hover:border-gray-400 cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">40-min Zone-2 jog / easy spin</h4>
-									<p class="text-xs text-gray-500 mt-1">Perform a 40-minute Zone-2 jog or easy spin. Maintain a pace where you can converse in full sentences.</p>
-									<div class="flex gap-2 text-xs text-gray-400 mt-1">
-										<span>TODAY · 06:00 AM</span>
-										<span>•</span>
-										<span class="flex items-center gap-1">{@html icons.repeat} REPEATS WEEKLY</span>
-									</div>
-								</div>
-							</div>
+					<!-- Pattern Card 3 -->
+					<div class="bg-white rounded-xl p-6 shadow-sm">
+						<div class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
+							{@html icons.sparkles}
 						</div>
-
-						<div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-blue-500 cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Team standup meeting</h4>
-									<p class="text-xs text-gray-500 mt-1">Daily sync with the team to discuss progress and blockers.</p>
-									<div class="text-xs text-gray-400 mt-1">TODAY · 9:00 AM</div>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="text-xs font-bold text-gray-400 mb-2 tracking-wide">NO DUE DATE</div>
-							<div class="space-y-3 opacity-60">
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Draft the first cut — 90-min rough draft block</span>
-								</div>
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Feedback loop — sit with Alex and refine the draft</span>
-								</div>
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Badminton practice</span>
-								</div>
-							</div>
-						</div>
+						<h3 class="font-bold text-gray-900 mb-2">Emergent Insights</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">
+							Watch new connections form as your map grows, revealing insights that weren't visible before.
+						</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="flex flex-col md:flex-row gap-8 md:items-start justify-between">
-				<div class="flex gap-6 text-sm font-medium text-gray-600">
-					<div class="flex items-center gap-2">
-						{@html icons.check}
-						<span>Checklists</span>
-					</div>
-					<div class="flex items-center gap-2">
-						{@html icons.calendar}
-						<span>Scheduled events</span>
-					</div>
-					<div class="flex items-center gap-2">
-						{@html icons.repeat}
-						<span>Repeating tasks</span>
-					</div>
-				</div>
-				<p class="text-xl text-gray-600 max-w-lg leading-relaxed">
-					Capture an idea, sketch a plan, or think out loud—your agents turn it into an actionable roadmap without disrupting your flow.
+			<div class="max-w-3xl mx-auto text-center">
+				<p class="text-xl text-gray-600 leading-relaxed mb-8">
+					Fractal is a mirror, not a guide. It reflects your thinking back to you with clarity, helping you see patterns you might have missed—but it never prescribes what those patterns should mean or what you should do about them.
 				</p>
+				<p class="text-lg text-gray-500 italic">
+					"The unexamined life is not worth living, but the over-examined life is not worth living either."
+				</p>
+			</div>
+		</section>
+
+		<!-- Image Section -->
+		<section class="max-w-7xl mx-auto px-6 py-20">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+				<div>
+					<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+						Your inner world, made visible
+					</h2>
+					<p class="text-lg text-gray-600 mb-6 leading-relaxed">
+						Fractal is for those who seek to understand themselves more deeply—not through external validation or prescribed paths, but through the quiet work of self-reflection and pattern recognition.
+					</p>
+					<p class="text-lg text-gray-600 leading-relaxed">
+						Join a community of deep thinkers who are exploring the topology of their own minds.
+					</p>
+				</div>
+				<div class="relative rounded-2xl overflow-hidden shadow-2xl">
+					<img 
+						src="/generated/image-person-in-meditation-or-deep-thought-by--1767051882023-2.webp" 
+						alt="Person in contemplation by window" 
+						class="w-full h-auto"
+					/>
+				</div>
 			</div>
 		</section>
 
@@ -499,73 +410,57 @@
 		<section class="max-w-7xl mx-auto px-6 py-20">
 			<div class="mb-16">
 				<span class="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					Use cases
+					For Deep Thinkers
 				</span>
 				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-					Who uses it?
+					Who is Fractal for?
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Distill works for anyone who needs to keep their best thinking alive- from executives to researchers to creators.
+					Writers, thinkers, creators, therapists, and contemplative practitioners who want to understand the structure of their thinking without dogma or prescription.
 				</p>
 			</div>
 
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 				<!-- Card 1 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Decision logging</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Record key choices and the reasoning behind them, so you can revisit the "why" at any time.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Writers</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Explore the themes and patterns that emerge across your work, revealing your unique creative voice.</p>
 				</div>
 				<!-- Card 2 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Idea tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Capture sparks of inspiration before they fade and connect them to ongoing work.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Therapists</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Map client narratives and belief structures to support deeper therapeutic insight.</p>
 				</div>
 				<!-- Card 3 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Weekly reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Reflect on the past week's shifts, wins, and challenges to plan your next moves.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Contemplatives</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Track your spiritual journey and see how your understanding evolves over time.</p>
 				</div>
 				<!-- Card 4 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Story building</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Develop narratives or arguments over time by adding and refining entries in a thread.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Researchers</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Visualize connections between ideas and discover new angles in your research.</p>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Progress tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Keep a living record of milestones, blockers, and updates across projects.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Creators</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Understand the conceptual foundations of your creative practice and identify new directions.</p>
 				</div>
 				<!-- Card 6 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Goal setting</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Define clear objectives and keep them visible as your work evolves.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Philosophers</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Map your philosophical inquiries and see how your arguments and beliefs interconnect.</p>
 				</div>
 				<!-- Card 7 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Action planning</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Turn insights and ideas into a prioritized list of next steps.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Journalers</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Transform daily reflections into a visual map of your personal growth and evolution.</p>
 				</div>
 				<!-- Card 8 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Strategy reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Assess current direction by surfacing shifts, risks, and opportunities.</p>
-				</div>
-
-				<!-- Card 9 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Research synthesis</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Convert scattered findings into clear, connected insights.</p>
-				</div>
-				<!-- Card 10 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Meeting prep</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Walk into discussions with the relevant context and decisions at hand.</p>
-				</div>
-				<!-- Card 11 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Content outlining</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Shape captured thoughts into structured drafts for writing or presentations.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Seekers</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Navigate your path of self-discovery with clarity, seeing patterns emerge without prescription.</p>
 				</div>
 			</div>
 		</section>
@@ -577,19 +472,16 @@
 					<h4 class="font-bold text-sm text-gray-900 mb-4">Resources</h4>
 					<div class="grid grid-cols-2 gap-x-8 gap-y-3 text-xs text-gray-600">
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.sparkles} The augmented thinker
+							{@html icons.reflection} Understanding cognitive topology
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.plus} Getting started with Distill
+							{@html icons.sparkles} Getting started with Fractal
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.download} Import to Distill
+							{@html icons.layout} Exploring belief loops
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.target} Make your own agents
-						</a>
-						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.reflection} Building a journaling habit
+							{@html icons.clarity} Deep reflection practices
 						</a>
 					</div>
 				</div>
@@ -598,12 +490,14 @@
 			<div class="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 text-xs text-gray-400">
 				<div class="flex items-center gap-2 mb-4 md:mb-0">
 					<div class="w-6 h-6 text-gray-300">
-						<svg viewBox="0 0 24 24" fill="currentColor" class="w-full h-full">
-							<path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 22C10.9 22 10 21.1 10 20C10 18.9 10.9 18 12 18C13.1 18 14 18.9 14 20C14 21.1 13.1 22 12 22ZM6 12C6 10.9 5.1 10 4 10C2.9 10 2 10.9 2 12C2 13.1 2.9 14 4 14C5.1 14 6 13.1 6 12ZM22 12C22 13.1 21.1 14 20 14C18.9 14 18 13.1 18 12C18 10.9 18.9 10 20 10C21.1 10 22 10.9 22 12ZM17.66 7.34C18.44 6.56 19.7 6.56 20.48 7.34C21.26 8.12 21.26 9.38 20.48 10.16C19.7 10.94 18.44 10.94 17.66 10.16C16.88 9.38 16.88 8.12 17.66 7.34ZM6.34 16.66C5.56 17.44 4.3 17.44 3.52 16.66C2.74 15.88 2.74 14.62 3.52 13.84C4.3 13.06 5.56 13.06 6.34 13.84C7.12 14.62 7.12 15.88 6.34 16.66ZM16.66 17.66C15.88 18.44 15.88 19.7 16.66 20.48C17.44 21.26 18.7 21.26 19.48 20.48C20.26 19.7 20.26 18.44 19.48 17.66C18.7 16.88 18.7 15.62 17.92 14.84L16.66 17.66ZM7.34 6.34C8.12 5.56 8.12 4.3 7.34 3.52C6.56 2.74 5.3 2.74 4.52 3.52C3.74 4.3 3.74 5.56 4.52 6.34C5.3 7.12 6.56 7.12 7.34 6.34Z" />
+						<svg width="24" height="24" viewBox="0 0 97 93" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path d="M57.1677 72.0913C49.5314 69.2599 41.6772 68.8244 34.4772 70.7844C29.459 72.0913 24.6592 74.7049 20.2956 77.9719L17.2411 80.5855L16.3684 81.4566L18.332 83.1991C18.5502 83.1991 18.5502 83.4169 18.7684 83.6347C19.2047 84.0702 19.6411 84.288 20.2956 84.7236L21.6047 85.5947L22.9137 84.5058C23.1319 84.288 23.5683 83.8524 24.0046 83.6347C27.9319 80.3677 32.2953 78.1897 36.8772 77.1008C42.768 75.576 49.0951 75.7938 55.4222 78.1897C60.6585 80.1499 71.3493 82.5455 84.2217 77.1008L84.6581 76.8827L85.3128 76.2294C85.3128 76.0116 85.5309 76.0116 85.7491 75.7938C86.8399 74.4871 87.9309 73.1802 88.8036 71.6557L93.167 64.9038L86.1854 68.8241C75.9309 74.4869 66.5493 75.576 57.1677 72.0913Z" fill="currentColor"/>
+							<path d="M27.2782 48.5694C33.169 47.0449 39.4961 47.2627 45.8235 49.6585C52.8051 52.2721 70.6957 55.9746 90.7681 37.8974L95.1317 33.5413L94.6952 32.4524C94.477 31.5812 94.0407 30.4921 93.6044 29.4032L92.5136 26.354L90.3317 28.5318C90.1136 28.9676 89.6773 29.1854 89.2407 29.621C79.641 39.4218 64.8049 49.4407 47.7869 43.3424C40.1509 40.511 32.2964 40.0752 25.0964 42.0355C18.1148 43.9957 12.0058 47.6982 6.33317 52.9255V52.7077L3.0605 56.1924C3.0605 56.4102 2.84236 56.4102 2.62418 56.628L1.9696 57.2813L2.1878 58.1527C2.40597 59.2416 2.84232 60.3305 3.0605 61.4197L4.36959 64.9044L6.55135 62.073C6.76954 61.6374 7.20588 61.4197 7.42407 60.9841C12.0058 56.8458 18.333 50.9652 27.2782 48.5694Z" fill="currentColor"/>
+							<path d="M6.11498 44.6486C11.1331 39.4214 16.8057 36.1544 22.9147 34.4119C28.8055 32.8874 35.1327 33.1052 41.4598 35.5011C61.0959 42.6883 78.1138 30.9272 85.5317 24.611L88.368 21.7796L89.4591 20.9085L88.5862 19.6016C87.9317 18.9482 87.4954 18.0771 86.8409 17.2057L85.5317 15.4635L84.0046 16.988C83.7864 17.2058 83.3501 17.6413 83.1317 17.8593C73.9683 26.5713 59.7867 35.5011 43.6416 29.4027C36.0053 26.5713 28.1511 26.1355 20.9511 28.0958C16.3693 29.4027 12.0058 31.5805 7.6422 34.4119L3.06044 38.1147C2.62409 38.5502 2.40591 38.768 1.96955 39.2036L1.53324 39.6391V40.2925C1.31506 41.8172 1.31503 43.3417 1.09685 44.6486L0.878662 50.0936L4.58772 46.1731C5.02406 45.7375 5.46045 45.0841 6.11498 44.6486Z" fill="currentColor"/>
 						</svg>
 					</div>
 					<div>
-						<p>Copyright © 2025 UNMS Technologies Corp.</p>
+						<p>Copyright © 2025 Fractal</p>
 						<p>All rights reserved. Terms of Service & Privacy Policy.</p>
 					</div>
 				</div>
